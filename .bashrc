@@ -97,3 +97,6 @@ fi
 #if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 #    . /etc/bash_completion
 #fi
+
+export UV_PYTHON_INSTALL_DIR=/workspace/.cache/uv/python
+export UV_CACHE_DIR=/workspace/.cache/uv
